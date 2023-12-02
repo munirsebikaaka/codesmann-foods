@@ -1,0 +1,140 @@
+@media (max-width: 1040px) {
+  .hero-button {
+    margin-left: 20rem;
+  }
+}
+@media (max-width: 850px) {
+  .meal-img {
+    width: 16rem;
+    height: 16rem;
+  }
+  .meal-name {
+    font-size: 1.6rem;
+  }
+  footer p {
+    font-size: 1.4rem;
+  }
+  .meal-cotainer {
+    max-width: 120rem;
+    padding: 6.4rem;
+    margin-right: 2.4rem;
+  }
+  .meal-name {
+    text-align: start;
+  }
+  .hero-button {
+    margin-left: 15rem;
+  }
+  .hero-discription {
+    font-size: 1.4rem;
+  }
+}
+@media (max-width: 750px) {
+  html {
+    font-size: 56.2%;
+  }
+  .section-hero {
+    position: relative;
+    height: 70vh;
+  }
+}
+@media (max-width: 720px) {
+  .meal-cotainer {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .meal-img {
+    width: 32rem;
+    height: 32rem;
+    text-align: center;
+  }
+  .meal-name {
+    font-size: 1.8rem;
+    text-align: center;
+  }
+  .meal-discription {
+    text-align: center;
+    font-size: 1.6rem;
+  }
+  .other-as:link,
+  .other-as:visited {
+    font-size: 1.6rem;
+    padding: 0.5rem 1rem;
+    margin-left: -1.2rem;
+  }
+  .other-a {
+    margin-left: 1.2rem;
+  }
+  nav {
+    padding: 2.4rem;
+  }
+}
+@media (max-width: 660px) {
+  html {
+    font-size: 50%;
+  }
+  .hero-container {
+    max-width: 90rem;
+  }
+}
+@media (max-width: 500px) {
+  html {
+    font-size: 44.5%;
+  }
+  nav {
+    padding: 2rem;
+  }
+  .other-as:link,
+  .other-as:visited {
+    font-size: 1.5rem;
+    padding: 0.4rem 0.8rem;
+  }
+  .hero-discription {
+    font-size: 1.2rem;
+  }
+  .hero-head {
+    font-size: 1.8rem;
+    font-weight: 600;
+  }
+  .hero-button {
+    font-size: 1.6rem;
+    font-weight: 600;
+    margin-left: 13rem;
+  }
+  .meal-cotainer {
+    max-width: 90rem;
+    grid-template-columns: 1fr;
+    gap: 3.8rem;
+  }
+  .img-box {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+  }
+  .meal-name {
+    font-size: 2rem;
+  }
+  .meal-discription {
+    font-size: 1.8rem;
+  }
+  nav {
+    padding: 1.8rem;
+  }
+  .other-as:link,
+  .other-as:visited {
+    font-size: 1.4rem;
+    padding: 0.4rem 0.8rem;
+    gap: 2.4rem;
+  }
+  ul {
+    gap: 1.8rem;
+  }
+  .testmonial {
+    grid-template-columns: 1fr;
+  }
+  .hero-button {
+    margin-left: 10rem;
+  }
+  .section-hero {
+    height: 60vh;
+  }
+}

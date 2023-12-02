@@ -1,0 +1,250 @@
+/* 
+-pirmary:#e67e22
+-Tints:
+#fdf2e9
+#fae5d3
+-Shades:#cf711f
+ */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+body {
+  font-family: sans-serif;
+  font-style: italic;
+}
+/* 
+***************
+section-hero
+***************
+*/
+.section-hero {
+  position: relative;
+  height: 100vh;
+  background-image: linear-gradient(
+    to bottom,
+    rgb(56, 26, 0),
+    rgba(80, 37, 0, 0.973)
+  );
+}
+.hero-container {
+  max-width: 120rem;
+  margin: 0 auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fae5d3;
+}
+.hero-head {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 1.2rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+.hero-discription {
+  font-size: 1.6rem;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 2.4rem;
+}
+.hero-button {
+  display: inline-block;
+  border: none;
+  cursor: pointer;
+  padding: 0.8rem 1.6rem;
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-left: 28rem;
+  text-transform: capitalize;
+  border-radius: 11px;
+  transition: all 0.3s;
+  background-color: #bb5802;
+}
+.hero-button:hover {
+  border: 4px solid #e69e5f;
+}
+
+.aside {
+  max-width: 100rem;
+  padding: 06.4rem 6.4rem 0;
+  margin: 0 auto;
+}
+.aside-head {
+  font-size: 1.8rem;
+  font-weight: 700;
+  text-transform: capitalize;
+  color: #140a00;
+  text-align: center;
+  margin-bottom: 1.2rem;
+}
+.aside-discription {
+  font-size: 1.6rem;
+  font-weight: 500;
+  text-align: center;
+}
+nav {
+  max-width: 200rem;
+  padding: 4.4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+ul {
+  list-style: none;
+  display: flex;
+  gap: 2.4rem;
+}
+.main-a:link,
+.main-a:visited {
+  font-size: 2.4rem;
+  font-weight: 600;
+  display: inline-block;
+  text-decoration: none;
+  color: #fae5d3;
+  border-radius: 11px;
+  padding: 0.6rem 1.2rem;
+  transition: all 0.3s;
+}
+.main-a:hover,
+.main-a:active {
+  border: 4px solid #fae5d3;
+  color: #fff;
+}
+.other-as:link,
+.other-as:visited {
+  font-size: 1.8rem;
+  font-weight: 600;
+  display: inline-block;
+  text-decoration: none;
+  padding: 0.6rem 1.2rem;
+  color: #fae5d3;
+  border-radius: 11px;
+  transition: all 0.3s;
+}
+.other-as:hover,
+.other-as:active {
+  border: 4px solid #fae5d3;
+  color: #fff;
+}
+/* 
+***************
+section-meals
+***************
+*/
+.meal-img {
+  width: 20rem;
+  height: 20rem;
+  border-radius: 11px;
+  transition: all 0.3s;
+}
+.img-box {
+  overflow: hidden;
+  border-radius: 11px;
+}
+.meal-img:hover {
+  transform: scale(1.5);
+}
+.meal-cotainer {
+  max-width: 100rem;
+  padding: 6.4rem;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 3.2rem;
+}
+.meal-cell {
+  box-shadow: 0 15px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 11px;
+}
+.meal-name {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #140a00;
+  text-align: center;
+  margin-bottom: 1.2rem;
+}
+.meal-discription {
+  font-size: 1.6rem;
+  letter-spacing: 1.1px;
+  margin-left: 1rem;
+}
+/* 
+***************
+section-hero
+***************
+*/
+.testmonial {
+  max-width: 80rem;
+  margin: 0 auto;
+  padding-right: 6.4rem;
+  padding-left: 6.4rem;
+  margin-bottom: 6.4rem;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  align-items: center;
+  justify-content: center;
+  gap: 3.8rem;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
+}
+.testmonial-img {
+  margin-left: 1rem;
+  width: 15rem;
+  height: 15rem;
+  border-radius: 11px;
+  transition: all 0.3s;
+}
+.testmonial-img:hover {
+  transform: scale(1.5);
+}
+.test-img {
+  overflow: hidden;
+  border-radius: 11px;
+}
+.testmonial-discription {
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+.testmonial-head {
+  font-size: 2.4rem;
+  font-weight: 700;
+  color: #140a00;
+  margin-bottom: 1.2rem;
+}
+.name {
+  font-size: 1.4rem;
+  font-weight: 500;
+  margin-top: 1.2rem;
+  color: #140a00;
+  border-bottom: 2px solid #140b01;
+  display: inline;
+}
+/* 
+***************
+section-footer
+***************
+*/
+footer {
+  max-width: 100rem;
+  padding: 3.2rem 6.4rem;
+  margin: 0 auto;
+  text-align: center;
+}
+.footer-head {
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-bottom: 1.2rem;
+  color: #140a00;
+}
+
+footer p {
+  font-size: 1.6rem;
+  font-weight: 400;
+}
